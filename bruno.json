@@ -1,0 +1,20 @@
+{
+  "name": "cmm-api-tests",
+  "version": "1",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ],
+  "presets": {
+    "request": {
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}
